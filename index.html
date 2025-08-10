@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enigma do Portal Espacial</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enigma do Portal Espacial 🚀</h1>
+      <p class="description">
+        Você é um viajante espacial a bordo da nave Galactic Odyssey. Insira números para ajustar a frequência do portal
+        e retornar para casa!
+      </p>
+
+      <div class="input-group">
+        <label for="numbers">Insira números (separados por vírgula):</label>
+        <input type="text" id="numbers" placeholder="Ex: 5,10,6" />
+      </div>
+
+      <div class="button-group">
+        <button class="glow-on-hover" id="select-btn">SELECIONAR</button>
+        <button class="glow-on-hover" id="return-btn">RETORNAR</button>
+      </div>
+
+      <div class="result-section">
+        <h2>Resultado do Portal</h2>
+        <div id="calculation"></div>
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
